@@ -1,14 +1,14 @@
 # BCMemu
 
-A python package for modelling baryonic effects in cosmological simulations.
+A Python package for modelling baryonic effects in cosmological simulations. Please go to [BCemu](https://github.com/sambit-giri/BCemu) for the actively maintained version.
 
 ## Package details
 
-The package provides emulators to model the suppression in the power spectrum due to baryonic feedback processes. These emulators are based on the baryonification model [[1]](#1), where gravity-only *N*-body simulation results are manipulated to include the impact of baryonic feedback processes. For detailed description, see Ref. [[2]](#2).
+The package provides emulators to model the suppression in the power spectrum due to baryonic feedback processes. These emulators are based on the baryonification model [[1]](#1), where gravity-only *N*-body simulation results are manipulated to include the impact of baryonic feedback processes. For a detailed description, see Ref. [[2]](#2).
 
 ## INSTALLATION
 
-To install the package from source, one should clone this package running the following::
+To install the package from the source, one should clone this package running the following::
 
     git clone https://github.com/sambit-giri/BCMemu.git
 
@@ -24,11 +24,11 @@ One can also install it using pip by running the following command::
 
     pip install git+https://github.com/sambit-giri/BCMemu.git
 
-The dependencies should be installed automatically during the installation process. If they fail for some reason, you can install them manually before installing BCMemu. The list of required packages can be found in the requirements.txt file present in the root directory.
+The dependencies should be installed automatically during the installation process. If they fail, you can install them manually before installing BCMemu. The list of required packages can be found in the requirements.txt file in the root directory.
 
 ### Tests
 
-For testing, one can use [pytest](https://docs.pytest.org/en/stable/) or [nosetests](https://nose.readthedocs.io/en/latest/). Both packages can be installed using pip. To run all the test script, run the either of the following::
+For testing, one can use [pytest](https://docs.pytest.org/en/stable/) or [nosetests](https://nose.readthedocs.io/en/latest/). Both packages can be installed using pip. To run all the test script, run either of the following::
 
     python -m pytest tests
     
